@@ -1,0 +1,12 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  color: aliceblue;
+}
+
+.background {
+  background-color: rgb(25, 25, 25);
+}
+
+a {
+    text-decoration: none;
+}
