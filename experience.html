@@ -1,50 +1,172 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="Description" content="Aqui va la descripción" />
-    <meta name="Author" content="Quién es el autor?" />
 
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Experience and skills / Paty Lopez</title>
     <link rel="icon" type="image/png" href="favicon.png" size="96 * 96" />
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/experience.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-  </head>
+</head>
 
-  <body class="background">
+<body class="background">
     <main>
-      <nav class="nav-bar">
-        <h2><a href="index.html">Home</a></h2>
-        <h2><a href="projects.html">Projects</a></h2>
-        <h2><a href="experience.html">Experience & skills</a></h2>
-        <h2><a href="contact.html">Contact</a></h2>
-        <!-- <h2><a href="education.html">Education</a></h2> -->
-      </nav>
+        <nav class="nav-bar">
+            <h2><a href="index.html">Home</a></h2>
+            <h2><a href="projects.html">Projects</a></h2>
+            <h2><a href="experience.html">Experience & skills</a></h2>
+            <!-- <h2><a href="contact.html">Contact</a></h2> -->
+            <!-- <h2><a href="education.html">Education</a></h2> -->
+        </nav>
 
-      <h1>Experience</h1>
-      <h1>Programming languages</h1>
-      <ul>
-        <li>Go</li>
-        <li>Java</li>
-        <li>Javascript</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>C</li>
-        <!-- <li></li> -->
-      </ul>
-      <h1>Skills & Frameworks</h1>
-      <ul>
-        <li>React</li>
-        <li>Typescript</li>
-        <li>PostgreSQL</li>
-        <li>GraphQL</li>
-        <!-- <li></li> -->
-      </ul>
+        <div style="padding-left: 5vh;">
+            <h1>Experience</h1>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="title-job"><span><strong>Developer</strong></span></div>
+                    <div class="company">
+                        </span>Grupo Kindynos</span>
+                    </div>
+                    <div class="location">
+                        </span>October 2020 - Present &#8226; Aguascalientes, Mexico.</span>
+                    </div>
+                    <hr>
+                    <div class="info">
+                        <span style="font-size: 14px;"><strong>Working on:</strong></span>
+                        <ul style="font-size: 13px;">
+                            <li>Web development</li>
+                            <li>API Rest</li>
+                            <li>GrahpQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br><br><br>
+
+            <h1>Programming languages</h1><br><br>
+            <div class="skills-container">
+                <div class="skill-bars">
+                    <div class="bar">
+                        <div class="info">
+                            <span>Go</span>
+                        </div>
+                        <div class="progress-line go">
+                            <span></span>
+                        </div>
+
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line py">
+                            <span></span>
+                        </div>
+
+                        <div class="info">
+                            <span>Javascript</span>
+                        </div>
+                        <div class="progress-line js">
+                            <span></span>
+                        </div>
+
+                        <div class="info">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-line jv">
+                            <span></span>
+                        </div>
+
+                        <div class="info">
+                            <span>C++</span>
+                        </div>
+                        <div class="progress-line cpp">
+                            <span></span>
+                        </div>
+
+                        <div class="info">
+                            <span>C</span>
+                        </div>
+                        <div class="progress-line c">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+
+            <h1>Skills & Frameworks</h1>
+            <table class="skills-table">
+                <tr>
+                    <td>
+                        <div class="container">
+                            <div class="skill-card">
+                                <div class="img-card">
+                                    <img src="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png">
+                                </div>
+                                <div class="content">
+                                    <h2>React</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="skill-card">
+                                <div class="img-card">
+                                    <img src="https://image.flaticon.com/icons/png/512/919/919832.png">
+                                </div>
+                                <div class="content">
+                                    <h2>Typescript</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="skill-card">
+                                <div class="img-card">
+                                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/postgresql.png">
+                                </div>
+                                <div class="content">
+                                    <h2>PostgreSQL</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="container">
+                            <div class="skill-card">
+                                <div class="img-card">
+                                    <img src="/images/graphql-removebg-preview.png">
+                                </div>
+                                <div class="content">
+                                    <h2>GraphQL</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="resume-container">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+                <a href="files/resume_PatyLopez.pdf" target="_blank">
+                    <p>Open resume</p>
+                </a>
+
+            </div>
+
+        </div>
     </main>
-    <footer></footer>
-  </body>
+
+    <!-- <footer>
+        <center>
+            <h3>Made by Paty Lopez</h1>
+        </center>
+    </footer> -->
+</body>
+
 </html>
